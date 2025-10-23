@@ -1,11 +1,15 @@
-<script setup></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <router-view />
 </template>
 
-<style scoped></style>
+<script setup>
+// Nada aqui por enquanto
+</script>
+
+<style>
+/* Opcional: estilos globais */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+</style>
