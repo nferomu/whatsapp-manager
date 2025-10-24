@@ -11,6 +11,12 @@ const routes = [
     component: Dashboard,
     meta: { requiresAuth: true },
   },
+  {
+    path: '/instances',
+    name: 'Instances',
+    component: () => import('../views/Instances.vue'),
+    meta: { requiresAuth: true }
+  },
 ]
 
 const router = createRouter({

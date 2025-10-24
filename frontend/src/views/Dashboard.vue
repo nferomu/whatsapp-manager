@@ -13,6 +13,7 @@
           📊 Dashboard
         </button>
         <button
+          @click="$router.push('/instances')"
           class="w-full text-left py-2.5 px-4 rounded-lg hover:bg-gray-800 transition flex items-center gap-2"
         >
           💬 Instâncias
